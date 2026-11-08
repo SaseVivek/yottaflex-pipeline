@@ -1,0 +1,11 @@
+project:
+  name: yottaflex-pipeline-optimization
+  random_seed: 42
+  row_scale: 1000
+paths:
+  database: data/yottaflex.duckdb
+  raw: data/raw
+  processed: data/processed
+  quarantine: data/quarantine
+  reports: reports
+  logs: logs
